@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.hero {
+    background: #0056B3;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-content {
+    padding: 50px 20px;
+}
+
+.cta-button {
+    background: #fff;
+    color: #0056B3;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.about-item {
+    text-align: center;
+    max-width: 300px;
+}
+
+.about-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.help-section {
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.help-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.help-section a {
+    color: #0056B3;
+    text-decoration: none;
+}
+
+.map-section {
+    padding: 20px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.map-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* estilos.css */
+
+/* Estilos para la sección de cómo funciona */
+.how-it-works {
+    padding: 20px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.pdf-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0056B3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.pdf-link:hover {
+    background: #004494;
+}
+
+/* estilos.css */
+
+/* Estilos para la sección de venta de producto */
+.product-sale {
+    padding: 20px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.product-info {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.product-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0056B3;
+    margin: 10px 0;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0056B3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background: #004494;
+}
